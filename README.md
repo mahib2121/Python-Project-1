@@ -1,21 +1,21 @@
 # 💰 Personal Expense Tracker
 
-A fully-featured desktop expense tracking application built with **Python** and **PySimpleGUI/FreeSimpleGUI**.
+A fully-featured desktop expense tracking application built with **Python** and **FreeSimpleGUI**.
 
 ---
 
 ## Features
 
-| Feature | Details |
-|---|---|
-| **Add / Edit / Delete** | Full CRUD with form validation |
-| **Live Search** | Searches title, category, and notes simultaneously |
-| **Category Filter** | 10 built-in categories (Food, Transport, Shopping, …) |
-| **Date Range Filter** | Filter by any From–To date window |
-| **Sort** | By Date, Amount, Title, or Category (asc/desc) |
-| **Summary Report** | Total spend, average, per-category breakdown, monthly totals, top-5 items |
-| **Persistence** | All data saved to `data/expenses.json` – survives restarts |
-| **Validation** | Graceful error handling; no crashes on bad input |
+| Feature                 | Details                                                                   |
+| ----------------------- | ------------------------------------------------------------------------- |
+| **Add / Edit / Delete** | Full CRUD with form validation                                            |
+| **Live Search**         | Searches title, category, and notes simultaneously                        |
+| **Category Filter**     | 10 built-in categories (Food, Transport, Shopping, …)                     |
+| **Date Range Filter**   | Filter by any From–To date window                                         |
+| **Sort**                | By Date, Amount, Title, or Category (asc/desc)                            |
+| **Summary Report**      | Total spend, average, per-category breakdown, monthly totals, top-5 items |
+| **Persistence**         | All data saved to `data/expenses.json` – survives restarts                |
+| **Validation**          | Graceful error handling; no crashes on bad input                          |
 
 ---
 
@@ -93,6 +93,7 @@ Expenses are stored in `data/expenses.json` (created automatically).
 You can back it up, share it, or edit it manually if needed.
 
 Example record:
+
 ```json
 {
   "id": "a1b2c3d4-...",
